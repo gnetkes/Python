@@ -1,0 +1,11 @@
+test = ["bob", 'asdad', 'asdads']
+for test1 in test:
+    print("you're ugly " + test1)
+
+
+def bobby(lol1,lol2,lol3):
+    dumb = max(lol1,lol2,lol3)
+    print(dumb)
+
+bobby(10312,3584641,3123116)
+    
