@@ -2,10 +2,45 @@ test = ["bob", 'asdad', 'asdads']
 for test1 in test:
     print("you're ugly " + test1)
 
-
+# 1
 def bobby(lol1,lol2,lol3):
     dumb = max(lol1,lol2,lol3)
     print(dumb)
 
 bobby(10312,3584641,3123116)
-    
+#2
+time_list = [21,56,2654,854,2,6,346]
+print(sorted(time_list))
+
+#3
+def area(length,height):
+    return length*height
+
+area1 =area(10,5)
+area2 = area(20,2)
+sum_area = area1 + area2
+print("this is the total area dumbass, "+ str(sum_area))
+
+#4
+def lucky_number(name):
+    number = len(name)*9
+    print("hey", name, "your lucky number is",number)
+
+lucky_number('boasbk')
+lucky_number('teng')
+
+#5
+print(1 != 2)
+
+#6
+def username_length(username):
+    if len(username) > 20:
+        print("get ur shit tgt too long")
+    elif len(username) <3:
+        print("too short broski")
+    else: 
+        print("goodjob")
+
+username_length('ah8nln;lnjklbbjklbjklbjkllilbkbl')
+
+#7 % is MOD formula
